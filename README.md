@@ -7,4 +7,4 @@ water_stn_converter.py
 - The function called get_sampling_frequencies returns a list of tuples.  Each tuple will contain the sampling frequency and the count from the JSON file.
 
 sampling_freq.py
-- Creates the sampling report
+- Creates a report in CSV format. The report includes two columns: “Sampling Frequency” and “Station Count” where “Sampling Frequency” contains a list of unique values from “Sampling_Frequency” attribute in the API response (e.g. Yearly, Seasonal, etc.)
